@@ -132,6 +132,18 @@ namespace Consola1
                             Ciclos.Multiplos3();
                             Menus.Volver();
                             break;
+                        case "2":
+                            Ciclos.Impares();
+                            Menus.Volver();
+                            break;
+                        case "3":
+                            Ciclos.Pares();
+                            Menus.Volver();
+                            break;
+                        case "4":
+                            Ciclos.Cuadrado();
+                            Menus.Volver();
+                            break;
                     }
                     break;
                 default:
