@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Sena\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\leand\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sena\\source\\repos\\Leandro\\Consola1\\Consola1\\Consola1.csproj",
+      "projectUniqueName": "C:\\Users\\leand\\Source\\Repos\\LJossue\\Menu\\Consola1\\Consola1.csproj",
       "projectName": "Consola1",
-      "projectPath": "C:\\Users\\Sena\\source\\repos\\Leandro\\Consola1\\Consola1\\Consola1.csproj",
-      "packagesPath": "C:\\Users\\Sena\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sena\\source\\repos\\Leandro\\Consola1\\Consola1\\obj\\",
+      "projectPath": "C:\\Users\\leand\\Source\\Repos\\LJossue\\Menu\\Consola1\\Consola1.csproj",
+      "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leand\\Source\\Repos\\LJossue\\Menu\\Consola1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
