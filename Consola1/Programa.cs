@@ -144,8 +144,34 @@ namespace Consola1
                             Ciclos.Cuadrado();
                             Menus.Volver();
                             break;
+                        case "5":
+                            Ciclos.CuadradoSuma();
+                            Menus.Volver();
+                            break;
+                        case "6":
+                            Ciclos.ncomprendidos(1,2);
+                            Menus.Volver();
+                            break;
+                        case "7":
+                            Ciclos.Suma();
+                            Menus.Volver();
+                            break;
+                        case "8":
+                            Console.Clear();
+                            Console.WriteLine("Salió del programa.");
+                            return;
+                        default:
+                            Console.WriteLine("Error de Digitación");
+                            Menus.Volver();
+                            break;
+
                     }
                     break;
+                case "4":
+                    Console.Clear();
+                    Console.WriteLine("Salió del programa.");
+                    return;
+
                 default:
                     Console.WriteLine("Error de Digitación");
                     break;
