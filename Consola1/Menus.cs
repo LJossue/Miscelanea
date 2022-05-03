@@ -17,15 +17,16 @@ namespace Consola1
                 // COMANDO para regresar al MENU
                 Console.WriteLine("\n¿Desea continuar usando el programa y volver al menu? SI/NO)");
                 RespuestaContinuar = Console.ReadLine();
-                if (RespuestaContinuar == "SI")
+                if ((RespuestaContinuar == "SI") || (RespuestaContinuar == "si"))
                 {
                     Console.Clear();
                     Programa.Main();
                 }
 
-                else if (RespuestaContinuar == "NO")
+                else if ((RespuestaContinuar == "NO") || (RespuestaContinuar == "no"))
                 {
                     Console.Clear();
+                    Console.WriteLine("Salió del programa.");
                     Environment.Exit(1);
                 }
             } while ((RespuestaContinuar != "SI") && (RespuestaContinuar != "NO"));
