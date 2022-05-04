@@ -11,8 +11,6 @@ namespace Consola1
     {
          public static void Main()
         {
-                try
-                {
                     Menus.MenuPrincipal();
                     String menu = null;
                     menu = Console.ReadLine();
@@ -27,6 +25,7 @@ namespace Consola1
 
                             switch (s1)
                             {
+
                                 case "1":
                                     Operadores.Areadeuntriangulo();
                                     Menus.Volver();
@@ -174,17 +173,15 @@ namespace Consola1
                             Console.WriteLine("Salió del programa.");
                             return;
 
-                            //default:
-                            //    Console.WriteLine("Error de Digitación");
-                            //    break;
+                            default:
+                                Console.WriteLine("Error de Digitación");
+                              break;
                     }
-                }
-                catch (Exception)
-                {
-                Console.WriteLine("hola");
-                }
+                
+                
         }
     }
 }
+
 
 
