@@ -23,8 +23,6 @@ namespace Consola1
                 Console.WriteLine("Escriba la Altura del triangulo: ");
                 n2 = Convert.ToDouble(Console.ReadLine());
 
-                Console.WriteLine("Error");
-
                 Console.WriteLine("El area del triangulo es: " + ((n1 * n2) / 2));
             }
             catch (Exception)
